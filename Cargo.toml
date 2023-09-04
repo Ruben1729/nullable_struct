@@ -1,0 +1,15 @@
+[package]
+name = "nullable_struct"
+version = "0.1.0"
+authors = ["Ruben Sanchez <ruben.e.sanchez.a@gmail.com>"]
+edition = "2021"
+description = "A derive macro that makes it easy to create nullable versions of structs."
+license = "Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
+proc-macro2 = "1.0"
